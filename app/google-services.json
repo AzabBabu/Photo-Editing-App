@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "537970202198",
+    "project_id": "knowledge-gain-56306",
+    "storage_bucket": "knowledge-gain-56306.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537970202198:android:aeeac781bd5de7affb0df7",
+        "android_client_info": {
+          "package_name": "com.example.knowledgegain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537970202198-28vd8f94k0ftr7soq7du364m1vq4ket7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJfhl2T4kV5dqS3vxiLzfRyR9BwwajZyE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "537970202198-28vd8f94k0ftr7soq7du364m1vq4ket7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

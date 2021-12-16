@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        drawable="@drawable/home_icon"
+        text="@string/Home" />
+
+    <tab
+        drawable="@drawable/rank"
+        text="@string/Rank" />
+
+    <tab
+        drawable="@drawable/wallet_black"
+        text="@string/Wallet"
+        Color="@color/black"
+        drawableTin="@color/black"
+        />
+
+    <tab
+        drawable="@drawable/user"
+        text="@string/User" />
+
+
+</tabs>

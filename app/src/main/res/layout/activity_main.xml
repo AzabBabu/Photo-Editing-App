@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/purple_500"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <FrameLayout
+        android:id="@+id/contentBoxId"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/tabsId"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+    </FrameLayout>
+
+
+    <com.iammert.library.readablebottombar.ReadableBottomBar
+        android:id="@+id/tabsId"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:rbb_textColor="@color/color_white"
+        app:rbb_indicatorHeight="3dp"
+        app:rbb_indicatorColor="@color/colorOrange"
+        app:rbb_initialIndex="@integer/material_motion_duration_long_1"
+        app:rbb_backgroundColor="@color/colorPurple"
+        app:rbb_textSize="9sp"
+        app:rbb_activeItemType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rbb_tabs="@xml/tabs" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
